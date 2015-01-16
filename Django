@@ -4,7 +4,7 @@ cf login -a https://api.ng.bluemix.net
 
 Push app using this code:
 
-cf push <APP NAME> -b https://github.com/ephoning/heroku-buildpack-python -c "sh run.sh"
+cf push <APP NAME> -m 128M -b https://github.com/ephoning/heroku-buildpack-python -c "sh run.sh"
 
 sh run.sh:
 #!/bin/bash
