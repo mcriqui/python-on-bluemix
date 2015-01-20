@@ -1,0 +1,8 @@
+Must include:
+-Procfile: points to file that runs program
+-Requirements.txt: include version of Flask and requests
+-Port information
+
+Runtime: Must be Python 2.7.8
+
+Push to cf: cf push <YOUR_APP_NAME> -m 128M -b https://github.com/joshuamckenty/heroku-buildpack-python.git
