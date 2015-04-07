@@ -17,5 +17,5 @@ python manage.py runserver --noreload 0.0.0.0:$SERVER_PORT
 
 Make sure to include:
 -Requirements.txt (Response, Twilio, ect. If returns 'no module named X, include it in this file.)
--Shell file
+-Shell file (run.sh)
 -Correct buildpack
